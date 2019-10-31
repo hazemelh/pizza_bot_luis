@@ -1,13 +1,6 @@
-# CoreBot
+# LUIS Pizza Bot
 
-Bot Framework v4 core bot sample.
-
-This bot has been created using [Bot Framework](https://dev.botframework.com), it shows how to:
-
-- Use [LUIS](https://www.luis.ai) to implement core AI capabilities
-- Implement a multi-turn conversation using Dialogs
-- Handle user interruptions for such things as `Help` or `Cancel`
-- Prompt for and validate requests for information from the user
+LUIS Pizza Bot demoed at Ignite 2019! 
 
 ## Prerequisites
 
@@ -26,9 +19,11 @@ This bot uses [LUIS](https://www.luis.ai), an AI based cognitive service, to imp
   dotnet --version
   ```
 
-### Create a LUIS Application to enable language understanding
+### Import the Pizza Bot LUIS application in luis.ai
 
-LUIS language model setup, training, and application configuration steps can be found [here](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=cs).
+Learn how to import an application in LUIS [here](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-how-to-start-new-app#import-an-app-from-file).
+
+Use the application **MicrosoftPizza.json** path: *CoognitiveModels/MicrosoftPizza.json*
 
 ## To try this sample
 
@@ -38,7 +33,7 @@ LUIS language model setup, training, and application configuration steps can be 
     git clone https://github.com/microsoft/botbuilder-samples.git
     ```
 
-- In a terminal, navigate to `samples/csharp_dotnetcore/13.core-bot`
+- In a terminal, navigate to the project directory.
 - Run the bot from a terminal or from Visual Studio, choose option A or B.
 
   A) From a terminal
@@ -52,7 +47,6 @@ LUIS language model setup, training, and application configuration steps can be 
 
   - Launch Visual Studio
   - File -> Open -> Project/Solution
-  - Navigate to `samples/csharp_dotnetcore/13.core-bot` folder
   - Select `CoreBot.csproj` file
   - Press `F5` to run the project
 
@@ -66,11 +60,7 @@ LUIS language model setup, training, and application configuration steps can be 
 
 - Launch Bot Framework Emulator
 - File -> Open Bot
-- Enter a Bot URL of `http://localhost:3978/api/messages`
-
-## Deploy the bot to Azure
-
-To learn more about deploying a bot to Azure, see [Deploy your bot to Azure](https://aka.ms/azuredeployment) for a complete list of deployment instructions.
+- Enter a Bot URL of `http://localhost:3978/api/messages` *OR* Use PizzaBot.bot found in the project folder.
 
 ## Further reading
 
