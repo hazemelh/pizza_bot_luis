@@ -1,0 +1,18 @@
+{
+    "name": "PizzaBot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "0032474e-bf94-431b-a743-01789d7feb49",
+            "appPassword": "&>x.dSU{z6KR0GiWVX|2rW09.2Kv9+q",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "937bbba0-f743-11e9-8b69-8d25458ec260",
+            "name": "http://localhost:3978/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\a-haelha\\Documents\\PizzaBot\\PizzaBot.bot"
+}
