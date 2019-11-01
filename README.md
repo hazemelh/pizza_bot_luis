@@ -30,7 +30,7 @@ Use the application **MicrosoftPizza.json** path: *CoognitiveModels/MicrosoftPiz
 - Clone the repository
 
     ```bash
-    git clone https://github.com/microsoft/botbuilder-samples.git
+    git clone https://github.com/hazemelh/pizza_bot_luis.git
     ```
 
 - In a terminal, navigate to the project directory.
